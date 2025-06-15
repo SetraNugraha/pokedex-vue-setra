@@ -1,29 +1,35 @@
-# pokemon-vue
+## Tech Stack
 
-This template should help get you started developing with Vue 3 in Vite.
+**Client:** Vite + VueJS, TailwindCSS
 
-## Recommended IDE Setup
+## Run Locally
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Clone the project
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+  git clone https://github.com/SetraNugraha/pokedex-vue-setra
 ```
 
-### Compile and Hot-Reload for Development
+Go to the project directory
 
-```sh
-npm run dev
+```bash
+  cd my-project
 ```
 
-### Compile and Minify for Production
+Install dependencies
 
-```sh
-npm run build
+```bash
+  npm install
+```
+
+Environtment
+
+```bash
+  copy .env.example to .env, set the value as needed
+```
+
+Run Project
+
+```bash
+  npm run dev
 ```

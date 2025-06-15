@@ -56,7 +56,7 @@ watchEffect(() => {
           <!-- Image -->
           <div
             class="relative bg-gray-600 py-5 xl:h-110 xl:w-90 grid place-items-center rounded-lg border-t-2 border-l-2 border-slate-300">
-            <img :src="pokemonDetail.sprites.front_default" alt="pokemon-image" class="size-36 xl:size-66" />
+            <img :src="pokemonDetail.sprites.front_default || '/img/pikachu-blank.png'" alt="pokemon-image" class="size-36 xl:size-66" />
           </div>
           <!-- Description -->
           <div class="text-white tracking-wider flex flex-col items-start gap-y-5 mt-2">
