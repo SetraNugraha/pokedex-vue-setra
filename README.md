@@ -2,6 +2,8 @@
 
 **Client:** Vite + VueJS, TailwindCSS
 
+**API:** https://pokeapi.co
+
 ## Run Locally
 
 Clone the project
